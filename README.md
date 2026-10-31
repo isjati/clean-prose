@@ -1,11 +1,18 @@
 # clean-prose
 
-An Antigravity plugin that removes AI writing patterns from prose while keeping the writer's facts and voice. It works in English and Indonesian.
+An agent skill and ruleset that removes AI writing patterns from prose while keeping the writer's facts and voice. Works across any AI coding agent or environment (Claude Code, Cursor, Antigravity, Hermes Agent, Codex) in English and Indonesian.
 
 It has two parts:
 
 - `rules/AGENTS.md`: ten short drafting rules that are always on. They stop the worst patterns while the agent writes, at a cost of a few hundred tokens.
 - `skills/clean-prose/`: an on-demand skill for full rewrites, audits and scores. The large pattern catalogue loads only when the skill runs.
+
+## Compatibility
+
+- **Claude Code & Codex:** Add `skills/clean-prose/` to your skills path or include `@rules/AGENTS.md` in your project `CLAUDE.md` / `AGENTS.md`.
+- **Cursor / Windsurf:** Reference `rules/AGENTS.md` in `.cursorrules` or system prompt rules.
+- **Hermes Agent:** Copy `skills/clean-prose/` into `~/.hermes/skills/`.
+- **Antigravity:** Install as a native plugin (see below).
 
 ## Modes
 
