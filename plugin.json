@@ -1,0 +1,11 @@
+{
+  "name": "clean-prose",
+  "description": "Removes AI writing patterns from prose. An always-on drafting rule plus an on-demand skill for edit, detect, score and embedded modes, with English and Indonesian patterns.",
+  "version": "1.0.0",
+  "author": {
+    "name": "isjati",
+    "url": "https://github.com/isjati"
+  },
+  "homepage": "https://github.com/isjati/clean-prose",
+  "repository": "https://github.com/isjati/clean-prose"
+}
